@@ -1,0 +1,73 @@
+.wrapper {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    margin: auto;
+}
+
+.form {
+    max-width: 300px;
+    width: 90vw;
+    margin: 3rem auto;
+    padding: 2rem 2.5rem;
+    border-top: 5px solid;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: block;
+    margin:  0.4rem auto 0;
+    margin-bottom: 1.38rem;
+}
+
+.formHeading {
+    text-align: center;
+}
+
+.alert {
+    text-align: center;
+    color: white;
+    padding: 0.25rem;
+    font-size: large;
+    font-weight: 500;
+}
+
+.danger {
+    background-color: red;
+}
+
+.success {
+    background-color: blue;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
+
+.inputDiv input {
+    padding: 0.4rem;
+}
+
+.formButton {
+    margin: auto;
+    width: 100%;
+    padding: 0.4rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    background-color: #6385a7;
+    border: none;
+    color: white;
+}
+
+.isMemberButton {
+    background-color: white;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: large;
+}
